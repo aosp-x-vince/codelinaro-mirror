@@ -1,0 +1,15 @@
+{
+  "name": "Codelinaro Mirror",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "bash setup.sh",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["redhat.vscode-xml"]
+    }
+  }
+}
